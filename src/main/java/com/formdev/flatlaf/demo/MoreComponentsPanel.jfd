@@ -1,0 +1,447 @@
+JFDML JFormDesigner: "7.0.2.0.298" Java: "15" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		auxiliary() {
+			"JavaCodeGenerator.defaultVariableLocal": true
+		}
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "insets dialog,hidemode 3"
+			"$columnConstraints": "[][][][][]"
+			"$rowConstraints": "[][][][][][][][][][][][100,top]"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "scrollPaneLabel"
+				"text": "JScrollPane:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane13"
+				"horizontalScrollBarPolicy": 32
+				"verticalScrollBarPolicy": 22
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "panel1"
+					"preferredSize": new java.awt.Dimension( 200, 200 )
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 0,grow,width 70,height 40"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar2"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar3"
+				"enabled": false
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar7"
+				"$client.JScrollBar.showButtons": true
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar8"
+				"enabled": false
+				"$client.JScrollBar.showButtons": true
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "separator2"
+				"orientation": 1
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormComponent( "javax.swing.JSlider" ) {
+				name: "slider2"
+				"orientation": 1
+				"value": 30
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy,height 100"
+			} )
+			add( new FormComponent( "javax.swing.JSlider" ) {
+				name: "slider4"
+				"minorTickSpacing": 10
+				"paintTicks": true
+				"majorTickSpacing": 50
+				"paintLabels": true
+				"orientation": 1
+				"value": 30
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy,height 100"
+			} )
+			add( new FormComponent( "javax.swing.JProgressBar" ) {
+				name: "progressBar3"
+				"orientation": 1
+				"value": 60
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": false
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormComponent( "javax.swing.JProgressBar" ) {
+				name: "progressBar4"
+				"orientation": 1
+				"value": 60
+				"stringPainted": true
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": false
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormContainer( "javax.swing.JToolBar", new FormLayoutManager( class javax.swing.JToolBar ) ) {
+				name: "toolBar2"
+				"orientation": 1
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button9"
+					"icon": &SwingIcon0 new com.jformdesigner.model.SwingIcon( 2, "Tree.closedIcon" )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button10"
+					"icon": &SwingIcon1 new com.jformdesigner.model.SwingIcon( 2, "Tree.openIcon" )
+				} )
+				add( new FormComponent( "javax.swing.JToolBar$Separator" ) {
+					name: "separator5"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button11"
+					"icon": &SwingIcon2 new com.jformdesigner.model.SwingIcon( 2, "Tree.leafIcon" )
+				} )
+				add( new FormComponent( "javax.swing.JToggleButton" ) {
+					name: "toggleButton7"
+					"icon": new com.jformdesigner.model.SwingIcon( 2, "Tree.closedIcon" )
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 1 6,growy"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+				name: "panel2"
+				"border": new javax.swing.border.TitledBorder( "TitledBorder" )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 0 1 6,grow"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "scrollBarLabel"
+				"text": "JScrollBar:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar1"
+				"orientation": 0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 1,growx"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar4"
+				"orientation": 0
+				"enabled": false
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 2,growx"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$columnConstraints": "[]"
+				"$rowConstraints": "[][][][]"
+				"$layoutConstraints": "ltr,insets 0,hidemode 3"
+			} ) {
+				name: "panel3"
+				"opaque": false
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "HTML:"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "<html>JLabel HTML<br>Sample <b>content</b><br> <u>text</u> with <a href=\"#\">link</a></html>"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane15"
+					add( new FormComponent( "javax.swing.JEditorPane" ) {
+						name: "editorPane6"
+						"contentType": "text/html"
+						"text": "JEditorPane HTML<br>Sample <b>content</b><br> <u>text</u> with <a href=\"#\">link</a>"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2,grow"
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane16"
+					add( new FormComponent( "javax.swing.JTextPane" ) {
+						name: "textPane6"
+						"contentType": "text/html"
+						"text": "JTextPane HTML<br>Sample <b>content</b><br> <u>text</u> with <a href=\"#\">link</a>"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 3,grow"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 0 1 8,aligny top,growy 0"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar5"
+				"orientation": 0
+				"$client.JScrollBar.showButtons": true
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 3,growx"
+			} )
+			add( new FormComponent( "javax.swing.JScrollBar" ) {
+				name: "scrollBar6"
+				"orientation": 0
+				"enabled": false
+				"$client.JScrollBar.showButtons": true
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 4,growx"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "separatorLabel"
+				"text": "JSeparator:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 5"
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "separator1"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 5,growx"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "sliderLabel"
+				"text": "JSlider:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 6"
+			} )
+			add( new FormComponent( "javax.swing.JSlider" ) {
+				name: "slider1"
+				"value": 30
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 6 3 1,aligny top,grow 100 0"
+			} )
+			add( new FormComponent( "javax.swing.JSlider" ) {
+				name: "slider6"
+				"enabled": false
+				"value": 30
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 6 3 1,aligny top,growy 0"
+			} )
+			add( new FormComponent( "javax.swing.JSlider" ) {
+				name: "slider3"
+				"minorTickSpacing": 10
+				"paintTicks": true
+				"majorTickSpacing": 50
+				"paintLabels": true
+				"value": 30
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": false
+				}
+				addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "changeProgress", false ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 7 3 1,aligny top,grow 100 0"
+			} )
+			add( new FormComponent( "javax.swing.JSlider" ) {
+				name: "slider5"
+				"minorTickSpacing": 10
+				"paintTicks": true
+				"majorTickSpacing": 50
+				"paintLabels": true
+				"enabled": false
+				"value": 30
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 7 3 1,aligny top,growy 0"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "progressBarLabel"
+				"text": "JProgressBar:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 8"
+			} )
+			add( new FormComponent( "javax.swing.JProgressBar" ) {
+				name: "progressBar1"
+				"value": 60
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": false
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 8 3 1,growx"
+			} )
+			add( new FormComponent( "javax.swing.JProgressBar" ) {
+				name: "progressBar2"
+				"stringPainted": true
+				"value": 60
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": false
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 8 3 1,growx"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "indeterminateCheckBox"
+				"text": "indeterminate"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": false
+				}
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "indeterminateCheckBoxActionPerformed", false ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 8"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "toolTipLabel"
+				"text": "JToolTip:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 9"
+			} )
+			add( new FormComponent( "javax.swing.JToolTip" ) {
+				name: "toolTip1"
+				"tipText": "Some text in tool tip."
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 9 3 1"
+			} )
+			add( new FormComponent( "javax.swing.JToolTip" ) {
+				name: "toolTip2"
+				"tipText": "Tool tip with\nmultiple\nlines."
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 9 3 1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "toolBarLabel"
+				"text": "JToolBar:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 10"
+			} )
+			add( new FormContainer( "javax.swing.JToolBar", new FormLayoutManager( class javax.swing.JToolBar ) ) {
+				name: "toolBar1"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4"
+					"icon": #SwingIcon0
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button6"
+					"icon": #SwingIcon1
+				} )
+				add( new FormComponent( "javax.swing.JToolBar$Separator" ) {
+					name: "separator3"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button7"
+					"icon": #SwingIcon2
+				} )
+				add( new FormComponent( "javax.swing.JToolBar$Separator" ) {
+					name: "separator4"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button8"
+					"text": "Text"
+					"icon": new com.jformdesigner.model.SwingIcon( 2, "Tree.expandedIcon" )
+				} )
+				add( new FormComponent( "javax.swing.JToggleButton" ) {
+					name: "toggleButton6"
+					"text": "Toggle"
+					"icon": new com.jformdesigner.model.SwingIcon( 2, "Tree.leafIcon" )
+					"selected": true
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/formdev/flatlaf/demo/icons/intellij-showWriteAccess.png" )
+					"enabled": false
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 10 3 1,growx"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "splitPaneLabel"
+				"text": "JSplitPane:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 11"
+			} )
+			add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+				name: "splitPane3"
+				"resizeWeight": 0.5
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "splitPane1"
+					"resizeWeight": 0.5
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "panel10"
+						"background": new java.awt.Color( 217, 163, 67, 255 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label1"
+							"text": "LEFT"
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "panel11"
+						"background": new java.awt.Color( 98, 181, 67, 255 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label2"
+							"text": "RIGHT"
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "left"
+				} )
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "splitPane2"
+					"orientation": 0
+					"resizeWeight": 0.5
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "panel12"
+						"background": new java.awt.Color( 242, 101, 34, 255 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label5"
+							"text": "TOP"
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "panel13"
+						"background": new java.awt.Color( 64, 182, 224, 255 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label6"
+							"text": "BOTTOM"
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "right"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 11 4 1,grow"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 700, 550 )
+		} )
+	}
+}
